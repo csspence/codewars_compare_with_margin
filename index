@@ -17,5 +17,5 @@ Tip: Some languages have a way to make arguments optional.
 */
 
 function closeCompare(a, b, margin){
-
+  return Math.abs(a - b) <= m? 0: Math.sign(a - b);
 }
